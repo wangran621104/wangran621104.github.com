@@ -1,69 +1,1052 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="Description" content="人人网 校内是一个真实的社交网络，联络你和你周围的朋友。 加入人人网校内你可以:联络朋友，了解他们的最新动态；和朋友分享相片、音乐和电影；找到老同学，结识新朋友；用照片和日志记录生活,展示自我。" />
+<meta name="Keywords" content="Xiaonei,Renren,校内,大学,同学,同事,白领,个人主页,博客,相册,群组,社区,交友,聊天,音乐,视频,校园,人人,人人网" />
+<meta name="msapplication-task" content="name=新鲜事;action-uri=http://www.renren.com/home;icon-uri=http://a.xnimg.cn/n/res/icons/newsfeed.ico" />
+<meta name="msapplication-task" content="name=日志;action-uri=http://blog.renren.com;icon-uri=http://a.xnimg.cn/n/res/icons/blog.ico" />
+<meta name="msapplication-task" content="name=相册;action-uri=http://photo.renren.com;icon-uri=http://a.xnimg.cn/n/res/icons/photo.ico" />
+<meta name="msapplication-task" content="name=音乐;action-uri=http://music.renren.com;icon-uri=http://a.xnimg.cn/n/res/icons/music.ico" />
+<meta name="msapplication-task" content="name=分享;action-uri=http://share.renren.com;icon-uri=http://a.xnimg.cn/n/res/icons/share.ico" />
+<meta name="msApplication-ID" content="App" />
+<meta name="msApplication-PackageFamilyName" content="57722RenRenpreview.RenrenHD_fknrsfzqca1jw" /><link rel="shortcut icon" type="image/x-icon" href="http://a.xnimg.cn/favicon-rr.ico?ver=3" /><link rel="apple-touch-icon" href="http://a.xnimg.cn/wap/apple_icon_.png" />
+<!--[if IE]><script type="text/javascript" src="http://s.xnimg.cn/a42873/n/core/expressions.js"></script><![endif]--><link href="http://s.xnimg.cn/a46389/n/core/global2-all-min.css" rel="stylesheet" type="text/css" /><script type="text/javascript">XN = {get_check:'-357708829',get_check_x:'b66eca3d',env:{domain:'renren.com',shortSiteName:'人人',siteName:'人人网'}};
+try {
+window.onerror=function(){
+if (parseInt(Math.random() * 10000, 10) != 5000) return 1;
+var a=arguments,e=encodeURIComponent,l=location,d=new Date();
+if(a.length!=3||a[2]==0)return 1;
+new Image().src=['http://s.renren.com/speedstats/jserror/stats.php?message='+e(a[0]),
+'url='+e(a[1]),'lineNo='+a[2],'location='+e(l),'time='+d.toLocaleTimeString()].join('&');
+return 1;
+};
+} catch (e){};
+var FLASH_UPLOADER_URL = 'http://xnimg.cn/n/apps/photo/modules/flashUploader/pic_uploader_v9.swf';
+var CUR_DOMAIN_UPLOAD = 'http://upload.renren.com';var photoSeedSrc= 'http://s.xnimg.cn/a46480/n/apps/photo/modules/seed/photoSeed.js';</script>
+<script src="http://s.xnimg.cn/a46286/n/core/base-all2.js" type="text/javascript"></script><script type="text/javascript">
+var wpiMenuInfo = {recentMenu : [{"id":"166613", "name":"相册", "icon":"http://app.xnimg.cn/application/20120607/17/55/LySNS72j018153.gif", "href":"http://photo.renren.com/","target":"_self"},{"id":"45", "name":"状态", "icon":"http://app.xnimg.cn/application/20090922/02/55/L937572594167SJS.gif", "href":"http://status.renren.com/status?fromType=nomore& from=homeleft","target":"_self"},{"id":"21", "name":"留言", "icon":"http://app.xnimg.cn/application/20100511/15/10/L81RJ30e018153.gif", "href":"http://gossip.renren.com","target":"_blank"},{"id":"166614", "name":"音乐", "icon":"http://app.xnimg.cn/application/20120607/17/55/LvZEY72a018153.gif", "href":"http://music.renren.com","target":"_self"},{"id":"166616", "name":"小站", "icon":"http://app.xnimg.cn/application/20111103/19/35/LqfTQ2h018153.gif", "href":"http://topic.renren.com/topic/wall","target":"_blank"},{"id":"166615", "name":"分享", "icon":"http://app.xnimg.cn/application/20120607/17/55/LnXhe53e018153.gif", "href":"http://share.renren.com","target":"_self"},{"id":"186827", "name":"轻约会", "icon":"http://app.xnimg.cn/application/20120920/00/20/LkSCZ121g018153.gif", "href":"http://www.qingyuehui.com","target":"_blank"},{"id":"166617", "name":"小组", "icon":"http://app.xnimg.cn/application/20120607/17/50/LQNJ859k018153.gif", "href":"http://xiaozu.renren.com","target":"_blank"},{"id":"142871", "name":"视频", "icon":"http://app.xnimg.cn/application/20110527/15/00/LGAds116a018153.gif", "href":"http://tv.renren.com","target":"_self"}],
+favoriteMenu : [{"id":"2", "name":"日志", "icon":"http://app.xnimg.cn/application/20081210/17/19/L074547241570HUA.gif", "href":"http://blog.renren.com/","target":"_blank"},{"id":"3", "name":"相册", "icon":"http://app.xnimg.cn/application/20091102/19/00/L979177294353SJS.gif", "href":"http://photo.renren.com/","target":"_blank"},{"id":"6", "name":"分享", "icon":"http://app.xnimg.cn/application/20081210/17/19/L075439863530HUA.gif", "href":"http://share.renren.com","target":"_blank"}],
+user : {"id" : 247163273},
+currentApp : []
+};
+</script><script type="text/javascript">
+if (window.asyncHTMLManager) {
+window.asyncHTMLManager.addEvent('load', function() {
+load_jebe_ads(1, false, true);
+});
+} else {
+load_jebe_ads(1);
+}
+</script><script type="text/javascript">XN.getFileVersion([
+'http://s.xnimg.cn/a19816/csspro/apps/profile.css',
+'http://s.xnimg.cn/a20457/jspro/xn.app.recommendFriend.js',
+'http://s.xnimg.cn/a40983/jspro/xn.app.status.js',
+'http://s.xnimg.cn/a46469/jspro/xn.app.share.js',
+'http://s.xnimg.cn/a46221/jspro/xn.app.ilike.js',
+'http://s.xnimg.cn/a13589/jspro/xn.ui.pager.js',
+'http://s.xnimg.cn/a32035/jspro/xn.ui.multiFriendSelectorBox.js',
+'http://s.xnimg.cn/a33439/csspro/module/friendSelector.css',
+'http://s.xnimg.cn/a36279/jspro/xn.app.addFriend.js',
+'http://s.xnimg.cn/a5881/jspro/xn.ui.multiFriendSelectorBox.forGuide.js',
+'http://s.xnimg.cn/a43354/jspro/lib/mediaplayer.js',
+'http://s.xnimg.cn/a36164/jspro/xn.app.webpager.js',
+'http://s.xnimg.cn/a16298/csspro/module/status-pop.css',
+'http://s.xnimg.cn/a11667/csspro/module/school-selector.css',
+'http://s.xnimg.cn/a45593/jspro/xn.ui.schoolSelectors.js',
+'http://s.xnimg.cn/a13200/jspro/album/ZeroClipboard.js',
+'http://s.xnimg.cn/a34049/jspro/music/music.for.feed.js',
+'http://s.xnimg.cn/a45224/jspro/xn.ui.emoticons.js',
+'http://s.xnimg.cn/a20254/csspro/module/minieditor.css',
+'http://s.xnimg.cn/a34049/jspro/music/music.for.feed.js',
+'http://s.xnimg.cn/a44645/apps/radio/js/radio-home.js',
+'http://s.xnimg.cn/a42765/apps/radio/css/radio-home.css',
+'http://s.xnimg.cn/a44645/apps/radio/css/radio-home-v6.css',
+'http://s.xnimg.cn/a30963/n/apps/home/modules/drag-upload/drag-upload.js',
+'http://a.xnimg.cn/a7107/swf/album/ZeroClipboard.swf',
+'http://s.xnimg.cn/n/core/modules/flashUploader/flashUploader.js',
+'http://s.xnimg.cn/a33832/n/core/modules/flashUploader/upload-pop-all-min.css',
+'http://s.xnimg.cn/a46229/apps/wiki/css/wiki-card-all-min.css',
+'http://s.xnimg.cn/a45753/apps/wiki/js/wiki_model.js',
+'http://s.xnimg.cn/a46229/apps/wiki/js/wikicard-load.js'
+]);
+XN.namespace( 'user' );
+XN.user.id = '247163273';
+XN.user.tinyPic = 'http://hdn.xnimg.cn/photos/hdn321/20100109/1830/h_tiny_VDLP_4574000230b32f75.jpg';
+XN.user.name = "%E7%8E%8B%E7%84%B6MISSING";
+XN.user.pageVersion = 6;
+XN.user.inWikiWhiteList = '';XN.user.isVip = false;XN.user.hideAds = false;</script><script type="text/javascript" data-src="http://s.xnimg.cn/a43365/modules/namecard/js/namecard.js" data-module="xn/namecard"></script>
+<script type="text/javascript" data-src="http://s.xnimg.cn/a44634/n/core/modules/show-share-friend/showShareFriendsModule.js" data-module="xn/showShareFriend"></script>
+<script type="text/javascript" data-src="http://s.xnimg.cn/a45588/n/core/modules/mention/index.js" data-module="xn/mentionMain"></script>
+<script type="text/javascript" data-src="http://s.xnimg.cn/a41752/n/core/modules/site-nav/switch-account.js" data-module="xn/site-nav/switch-account"></script>
+<script type="text/javascript" data-src="http://s.xnimg.cn/a45881/n/core/modules/site-nav/search.js" data-module="xn/site-nav/search"></script>
+<script type="text/javascript" data-src="http://s.xnimg.cn/a42708/n/core/modules/ilike/index.js" data-module="xn/ilike"></script>
+<script type="text/javascript" data-src="http://s.xnimg.cn/a46394/n/core/feed/group/group-vote.js" data-module="xn/group/vote"></script>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Wangran621104.github.com : example" />
+<link href="http://s.xnimg.cn/a46246/csspro/apps/blog.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://s.xnimg.cn/a33439/csspro/module/friendSelector.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://s.xnimg.cn/a30278/jspro/xn.ui.friendSelecotorMenu.js"></script>
+<script type="text/javascript" src="http://s.xnimg.cn/a46469/jspro/xn.app.share.js"></script>
+<link href="http://s.xnimg.cn/a28841/csspro/module/replies.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://s.xnimg.cn/a46221/jspro/xn.app.ilike.js"></script>
+<script type="text/javascript" src="http://s.xnimg.cn/a43354/jspro/lib/mediaplayer.js"></script>
+<script type="text/javascript">
+XN.DOM.readyDo(function(){
+ILike.init({type:'share',id:14514445893,userId:247163273,ownerId:357164426}); 
+});XN.dom.ready(function()
+{
+playVideoOfContent('blogContent', 'video');
+playAudioOfContent('blogContent', 'audio');
+playMusicOfContent('blogContent', 'music');
+});
+XN.dom.ready(function(){
+var tabView = new XN.ui.tabView({
+selectedClass: 'selected'
+}).addTab({
+label: 'othershareTab',active:true,content: 'othersharelist'
+});
+tabView.addTab({
+label : 'hotshareTab',content : 'hotsharelist'
+});
+XN.app.share.CommentManger.init({
+tabs: [{tab:'friendCmts',
+content:'friendCmtsList'},
+{tab:'allCmts',
+content:'allCmtsList'}], activeTab:'friendCmtsList',cmtForm : 'comment_form_14514445893', cmtToInput : 'repetNo',shareUrlMd5 : '4fdf043da0e059f0aaf549006f932dbb',shareId:14514445893,
+shareOwner:357164426,
+isAdmin : '',cmtsListCon: 'cmtsListCon'});
+});
+XN.dom.ready(function(){
+XN.app.share.initRBlog({
+con : $('relative-content-con'),
+data : {blog_id:874229861} 
+});
+}, true);</script>
+<link href="http://s.xnimg.cn/a45206/csspro/apps/share.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://s.xnimg.cn/a43354/jspro/lib/mediaplayer.js"></script>
+<title>人人网- 日志分享
+</title>
+<script type="text/javascript">
+//@小群使用
+XN.mentionGroup = true;
+</script></head>
+<body id="pageShare">		
+<div id="showNewNav" style="display:none"></div>
+<div id="dropmenuHolder" class="dropmenu-holder dropmenu-holder-new rr">
+<div id="accountDropDownMenu" class="menu-dropdown" style="display: none">
+<div class="menu-dropdown-border">
+<div class="account-menu">
+<div class="accounts" id="otherAccount" style="display:none"></div>
+<div class="optionmenu options">
+<ul>
+<li><a class="optionprivacy" href="http://safe.renren.com/">帐户设置</a></li>
+<li><a href="http://i.renren.com/" class="optionvip">VIP中心</a></li>
+<li><a href="http://pay.renren.com/" class="optionpay">充值中心</a></li></ul>
+</div><div class="optionsupport"><a href="http://help.renren.com/helpcenter">联系客服</a></div>
+<a accesskey="0" href="http://www.renren.com/Logout.do?requesttoken=-357708829" class="logout">退出</a>
+</div>
+</div>
+</div>
+<div id="appsMenuPro" class="menu-dropdown" style="position: absolute; display: block; z-index: 10001; left: -9999px; top: -9999px; "></div></div>
+<div class="site-nav-wrapper">
+<div id="navBar" class="site-nav fixed">
+<div id="navigation-for-buddylist">
+<div class="navigation-wrapper">
+<div class="navigation navigation-new clearfix"><div id="logo2"><h1><a href="http://www.renren.com" title="人人网 renren.com - 人人网校内是一个真实的社交网络，联系朋友，一起玩游戏"><img alt="人人网 renren.com - 人人网校内是一个真实的社交网络，联系朋友，一起玩游戏" title="人人网 renren.com - 人人网校内是一个真实的社交网络，联系朋友，一起玩游戏" height="31" width="160" src="http://s.xnimg.cn/imgpro/v6/logo.png?f=trunk" /></a></h1></div>  
+<div class="nav-body clearfix">
+<div class="nav-main"><div class="menu">
+<div class="menu-title"><a accesskey="1" href="http://www.renren.com/home?id=247163273"><span class="menu-title-text" stats="V6Hd_home">首页</span></a></div>
+</div><div class="menu">
+<div id="profileMenuActive" class="menu-title"><a id="showProfileMenu" accesskey="2" href="http://www.renren.com/profile.do?id=247163273"><span stats="V6Hd_Profile" class="menu-title-text">个人主页</span><span class="nav-drop-menu-btn"></span></a></div>
+</div>
+<div class="menu"><div class="menu-title" id="friendMenuActive"><a id="showFriendMenu" accesskey="3" href="http://friend.renren.com/myfriendlistx.do"><span class="menu-title-text" stats="V6Hd_frd">好友</span></a></div>
+</div>							 
+<div class="menu">
+<div class="menu-title">
+<a href="http://explore.renren.com/">
+<span class="menu-title-text" stats="V6Hd_exploer">探索</span>
+</a>
+</div>
+</div></div><div class="nav-other">
+<div id="navMessage">
+<span class="remind" title = "提醒">
+<a href="#nogo" onclick="return false;" hidefocus="true">&nbsp;</a>
+<i style='display:none;'><u><b>&nbsp;</b><var>0</var></u><em>&nbsp;</em></i>
+</span>
+<span class="apply" title = "请求">
+<a href="#nogo" onclick="return false;" hidefocus="true">&nbsp;</a>
+<i style='display:none;'><u><b class="apply">&nbsp;</b><var>0</var></u><em>&nbsp;</em></i>
+</span>
+<span class="notice" title = "通知">
+<a href="#nogo" onclick="return false;" hidefocus="true">&nbsp;</a>
+<i style='display:none;'><u><b class="notice">&nbsp;</b><var>0</var></u><em>&nbsp;</em></i>
+</span>
+<div id="showMessage" style="display:none;">
+<div id="loadTip">&nbsp;</div>
+<iframe name="showMessageIframe" id="showMessageIframe" src="about:blank" frameborder="0" allowtransparency='true' scrolling="no" width="294" height="0"></iframe>
+</div>
+</div>
+<div id="navSearch">
+<form method="post" id="globalSearchForm" action="http://browse.renren.com/searchEx.do?from=opensearch">
+<div id="search-input">
+<input stats="Hd_sInput" type="text" size="25" maxlength="100" id="navSearchInput" accesskey="/" name="q" class="input-text" value="" tabindex="1" />
+</div>
+<a href="javascript:;" id="searchBtnAC">搜索</a>
+</form>
+</div>
+<div class="menu account-action" id="accountMenu">
+<div class="menu-title"><a href="#" onclick="return false;">帐号</a></div>
+</div></div>
+</div>
+</div>
+<div class="nav-drop-menu-holder" id="navDropMenuHolder"><div class="nav-drop-menu nav-drop-menu-profile" id="navProfileDropMenu"><a class="nav-drop-menu-item" href="http://i.renren.com/store/view/home?wc=10000"><img src="http://a.xnimg.cn/imgpro/icons/Vipdraw.gif" class="icon" /> 装扮主页</a>
+<a class="nav-drop-menu-item" href="http://www.renren.com/profile.do?id=247163273&amp;v=info&amp;act=edit"><img src="http://a.xnimg.cn/imgpro/icons/account.gif" class="icon" /> 修改资料</a></div></div>
+</div>
+</div>
+</div>
+</div><div id="container-for-buddylist"><div id="topbar"></div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<div class="full-page-holder">
+<div class="full-page clearfix"><div class="pagemain">
+<div class="page-titletabs clearfix">
+<div class="title-name title-share">分享</div>
+<ul class="nav-tabs Third">
+<li>
+<a href="http://www.renren.com/profile.do?id=357164426">
+<span>龙思云</span>
+</a>
+</li>
+<li class="angleright"></li>
+<li>
+<a href="http://share.renren.com/share/357164426"><span>龙思云的分享</span></a>
+</li>
+<li class="angleright"></li>
+<li>当前分享</li>
+</ul>
+<a href="http://share.renren.com" title="返回分享首页" class="return-index">返回分享首页»</a></div>
+<div class="share-home terminal">
+<div class="share-newacts">
+<a class="share_new" data-share="{stype:'create_share_sysn',id:14514445893,owner:357164426,host:357164426,top:30}"href="#nogo">分享</a>
+</div><div > 
+<h3 class="title-article">
+<strong>越走越南  越南越美            带2000块一个人去越南（给朋友的参考攻略）</strong>
+<span class="blog-legend">来源：</span>
+<span class="blog-detail">
+<span class="name">                                      
+<a href="http://blog.renren.com/GetEntry.do?id=874229861&owner=255235788" target="_blank">常凯的日志</a>                                                                            
+</span>
+</span>                 
+</h3>
+<div class="text-article">
+<div class="content-body" id="shareBody">
 
-    <title>Wangran621104.github.com</title>
-  </head>
+<p>&nbsp; 6月，毕业，每个人都很兴奋的样子，答辩、合照、散伙饭一气呵成到没时间呵气。如果说挂科是大学必修课的话，那我修的有点儿多了，所以6月并不顺利。对大学的留恋和遗憾、对未来的恐惧搞得我整个6月都很迷茫，再加毕业的不顺利，所以突然想出去走走。</p><br /><p>&nbsp;</p><br /><p>&nbsp; 越南签证在淘宝上找个旅行社办就行了，寄过去两天就办好了，288。可以指定签证的有效时间，随便指定30天的区间就可以了。到南宁去旅行社拿签证就行了，然后再火车站不远处的国际旅客集散中心买到河内的票，一般都是一大早的，票价148+2元保险。十分推荐住南宁的荷逸居青旅，就在火车站和汽车站附近，很方便。四人间55一天，环境超好，老外超多。</p><br /><p>&nbsp; 07.05：早上8:00的车，再买票的地方坐，车上有一半都是越南人。12：00左右的样子会到凭祥停下来吃饭，午饭时免费的，这时会有很多人来向你兑换越南盾，抓紧机会兑换吧，这是我遇到汇率最高的，我换到了1:3280的汇率，换了1500人民币，3280X1500=492W越南盾，瞬间变成百万富翁有木有。到越南之后人民币汇越来越不值钱了，谨记。吃完饭半个小时就到了友谊关，出境。很简单的程序，在护照上盖个章就出去了，什么都没有检查。但是越南入境就没那么轻松了，不过只要在护照里夹10块钱&ldquo;小费&rdquo;就通过了，行李也根本不检查。</p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20120922/1105/b_large_CdHt_1a3600002a311263.jpg" border="0" /></p><br /><p>中国边检</p><br /><p><img src="http://fmn.rrimg.com/fmn061/20120917/2050/b_large_Pa6T_525d000007401263.jpg" border="0" /></p><br /><p>越南边检（那个快看不到的小房子）</p><br /><p><img src="http://fmn.rrimg.com/fmn057/20120917/2050/b_large_mElZ_7ec500000ccf1262.jpg" border="0" /></p><br /><p>&nbsp;中越的关口对比，一下子就有差距了，不过中国人确实爱面子，关口大得有点儿过分。（忽略掉这个飘逸的大叔吧）</p><br /><p>&nbsp;</p><br /><p>&nbsp; 过了关后 ，就有电瓶车接你继续坐越南境内的大巴车，然后3个多小时就到了河内，一个忙碌又热情的城市。一般还剑湖附近是国际旅客的集散地，而且最重要的是&ldquo;新咖啡&rdquo;的联程票要在那里买。联程票是为了方便在越南境内旅游的旅游大巴的套票，可以自己指定想要去的城市和行程。不过，建议朋友们时间充裕的话不要住那里，因为旅客多物件难免就有点儿高了。在大巴下车的地方打个的到还剑湖差不多90000越南盾的样子，拼车的话就便宜多了。到了还剑湖附近随便找间自己喜欢的旅馆就可以了，旅馆多到爆，只要不去招惹有星星的旅馆价钱都很低。强烈推荐VIET FUN HOTEL旅馆，离还剑湖和圣约瑟夫教堂都很近，而且价钱也便宜。屌丝一个人住一间房子是不能容忍的奢侈，多以找了两个人拼住就好了，一个人6美刀包早饭。找好旅馆然后就是买联程票（在这里推荐新咖啡sihn coffed的联程票）了，我买了顺化、惠安、芽庄、大叻、美奈、胡志明六个城市的联程票，还顺便买了个芽庄的四岛游项目（推荐！），一共61.5美刀。如果你是计划只玩儿越南的那就要早点定胡志明回河内的机票了，不要让旅馆老板帮你定，自己到捷星（jetstar）定，提前半个月定的话30-50美刀左右，超便宜！</p><br /><p>1.河内（07.05-07.07）</p><br /><p>&nbsp; 旅馆和行程都搞定后就放心出去看看河内这个城市了，圣约瑟夫教堂就在附近，法式哥特的建筑，另一种沧桑的味道，值得去看一看。第二天又去了一次，刚好碰到做弥撒，唱诗班的的歌真的很好听，虽然一句都听不懂。</p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20120917/2115/b_large_Ca1H_7ec500000e4a1262.jpg" border="0" /></p><br /><p>吃过晚饭才去了还剑湖，夜晚的还剑湖还是很妩媚的，湖边都是甜蜜的小情侣，很是羡慕。</p><br /><p><img src="http://fmn.rrimg.com/fmn056/20120917/2120/b_large_agoW_0d0700005bd91263.jpg" border="0" /></p><br /><p>第一天很累的，在还剑湖和老街逛了逛就打算回去睡觉了。旅馆晚上的街景，很越南。</p><br /><p><img src="http://fmn.rrimg.com/fmn060/20120917/2130/b_large_0o14_43df00000d471263.jpg" border="0" /></p><br /><p>&nbsp;在旅馆里遇到两个日本人，日本花姑娘实在太可爱了，邪念顿生。花姑娘说看到我特别亲切因为我长得像日本人，我估计他们没听懂&ldquo;我艹&rdquo;的意思。我听不懂他们的日本英语，他们也听不懂我的中国英语，然后大家就傻了吧唧的一直笑。既然聊得这么投机当然要出去喝一杯。西贡特制，真的很赞，很好喝，10000盾。米粉35000盾，还剑湖附近的东西确实很贵！</p><br /><p>&nbsp;</p><br /><p><img src="http://fmn.rrimg.com/fmn062/20120917/2145/b_large_S7xl_1aa000005bb51261.jpg" border="0" /></p><br /><p><img src="http://fmn.rrfmn.com/fmn058/20120917/2150/b_large_00Vm_3834000048b31263.jpg" border="0" /></p><br /><p>酒足饭饱，然后&middot;&middot;&middot; &middot;&middot;&middot;睡觉！</p><br /><p>早上起来就有免费的早餐放在面前，很幸福。而且，越南的地漏咖啡超赞！</p><br /><p><img src="http://fmn.rrimg.com/fmn063/20120917/2155/b_large_2mJW_3834000048ff1263.jpg" border="0" /></p><br /><p>因为新咖啡的联程票有点紧张，所以买的是07.07去顺化的票，所以要在河内待两天。反正有的是时间，那就出去走走。在还剑湖旁边的邮局买了张明信片，寄给了个姑娘，猜猜她是谁？然后漫无目的的到处游走，看不一样风景和不一样的人。</p><br /><p>在越南的美食中不得不提的就是法棍了，10000盾到30000盾的都买过，但是差距不大，真的很好吃，但是天天把它当做早饭，后来有点儿吃恶心了。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn061/20121005/1830/b_head_Gbcg_07290000019b1262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn061/20121005/1830/b_large_oU18_07290000019b1262.jpg" border="0" /></p><br /><p>&nbsp;</p><br /><p>&nbsp; 白天的还剑湖。还剑湖有个很扯得传说：<span>相传 1418 年，黎朝太祖&mdash;黎利</span><span>，在蓝山起义之前，巧合地得到一个剑身，上刻&ldquo;顺天&rdquo;二字。后来又捡到一把剑柄，拼在一起特有力量。黎利英雄就用这把宝剑打败不少敌军，后来成为皇帝，建立了黎朝。10 年后，有一天黎太祖在绿水湖上游船时，突见一只金龟浮出水面，游向船边，向黎太祖说：&ldquo;敌军已被打败，请皇上回我宝剑。&rdquo;话一说完，黎太祖腰部的宝剑突然摇动，掉到金龟嘴里，金龟于是含着宝剑往湖底潜去。<span>黎太祖与群臣非常惊讶，以为是神仙现身，把金龟称为神金龟，为了表达对金龟的尊敬。湖名从此被改为还剑湖。后来又传说此剑被仙人送还，插在湖里，剑把留在水面上，现在就是湖中心的一个小宝塔。</span></span></p><br /><p><span><span>&nbsp; 还剑湖的小岛上还有个什么乌龟博物馆，说是神龟的壳在里面。像我这样的四有青年怎么能这么迷信，果断不去看啊。</span></span></p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn065/20121005/0810/b_head_NfEE_6675000001981263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn065/20121005/0810/b_large_rjdb_6675000001981263.jpg" border="0" /></p><br /><p>越南最常见的就是耕种各样的教堂了。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn062/20121005/0805/b_head_rKbX_09eb000002c31262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn062/20121005/0805/b_large_e3H5_09eb000002c31262.jpg" border="0" /></p><br /><p>走着走着竟然走到了菜市场，果然是漫无目的。</p><br /><p><img src="http://fmn.rrimg.com/fmn060/20120917/2210/b_large_TDu5_2101000059831263.jpg" border="0" /></p><br /><p>然后就是各种纪念馆和文庙，门票很便宜（当然，是和国内的比），不过外面看看就好了，如果没钱的话。</p><br /><p><img src="http://fmn.rrimg.com/fmn064/20120917/2215/b_large_TpD6_344a00003b081261.jpg" border="0" /></p><br /><p><img src="http://fmn.rrimg.com/fmn057/20120917/2215/b_large_zk4C_0c87000010301262.jpg" border="0" /></p><br /><p>&nbsp;</p><br /><p>逛累了吃午饭，越南的米粉和春卷，各种薄荷叶。</p><br /><p><img src="http://fmn.rrimg.com/fmn062/20120922/1120/b_large_KLvs_6a61000007631262.jpg" border="0" /></p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn062/20121005/1405/b_head_BDpJ_4d9e000005611261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn062/20121005/1405/b_large_2aHO_4d9e000005611261.jpg" border="0" /></p><br /><p>&nbsp; 漫无目的的溜达了一天又回到了旅店，遇到个米国佬说有个地方简直是啤酒的天堂，然后就带我们到了个大排档街区，4杯扎啤才1刀。喝了一晚上才花了4刀，好爽。快凌晨的时候和碧哥一起走回旅馆，一路上都有推销&ldquo;beautiful girl&rdquo;的，凌晨的旅馆附近简直变成了红灯区，各种妩媚的beautiful girl，各种媚眼，可惜囊中羞涩不得不hold住。</p><br /><p>河内花费：住宿两天： 12刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 吃饭：85000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 啤酒：107000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 打的：30000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 明信片+邮票：82000盾（邮局的明信片坑爹的贵！）</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; open bus联程票+芽庄四岛游票：61.5刀（这个必须有）</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 机票（机票浮动较大，一般为40-60刀，暂以300RMB计）：300RMB</p><br /><p>共计：约859RMB</p><br /><p>2.顺化（07.08-07.09）</p><br /><p>&nbsp; 下午在河内坐sleeping bus，睡一觉，第二天一早就到顺化。虽然一晚上没睡着，但是很喜欢坐sleeping bus，因为可以节省住宿钱。(话说一晚上没睡，看俩人kiss了一整晚)</p><br /><p><img src="http://fmn.rrimg.com/fmn060/20120922/1105/b_large_i4Nk_1e9900002e181262.jpg" border="0" /></p><br /><p>&nbsp; 一大早就到了顺化，第一件事还是找旅店，在河内的旅店老板给我推荐了个顺化的旅店又好又便宜。</p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20120922/1110/b_large_03j7_0cb2000024071262.jpg" border="0" /></p><br /><p>&nbsp; 搞定之后就马不停蹄的瞎逛去了。顺化很干净，顺化的皇宫听说是必去的，但是真的不舍得30块钱的门票，只好绕着皇宫的城墙转了一圈，就当是去过了皇宫。</p><br /><p><img src="http://fmn.rrimg.com/fmn063/20120922/1110/b_large_Izu7_116000003dea1261.jpg" border="0" /></p><br /><p>顺化的皇宫，虽然不比故宫，还是有点儿气势的。</p><br /><p><img src="http://fmn.rrimg.com/fmn064/20120922/1115/b_large_70St_1a620000778b1263.jpg" border="0" /></p><br /><p>可惜有保安，要不然就翻墙了。</p><br /><p><img src="http://fmn.rrimg.com/fmn061/20120922/1115/b_large_2PQ5_2d1f00002b2d1262.jpg" border="0" /></p><br /><p>晚上去吃饭，很好吃的鲜春卷，蘸着鱼露吃。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn057/20121005/1425/b_head_8rQU_3cc8000041c71261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn057/20121005/1425/b_large_wNRY_3cc8000041c71261.jpg" border="0" /></p><br /><p>顺化花费：住宿：6刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 吃饭+啤酒+小吃：190000盾</p><br /><p>共计：月97RMB</p><br /><p>3.惠安（07.09-07.10）</p><br /><p>&nbsp; 顺化一早的open bus 到惠安，惠安是我最喜欢的城市，一路上的景色也很迷人。<img src="http://fmn.rrimg.com/fmn065/20120922/1135/b_large_aeGz_43d9000034a21261.jpg" border="0" /></p><br /><p>好羡慕那对情侣，两个人一起来越南。</p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20120922/1140/b_large_TEkZ_2da7000027fc1263.jpg" border="0" /></p><br /><p>&nbsp; 惠安是个古城，类似于丽江，但是安静的让人不敢相信，街道上几乎看不到人，偶尔过去几辆摩托车，只有傍晚的时候才有人出来乘凉。依旧是佬套路，找旅馆然后玩儿。《美国国家地理》上面说惠安到岘港的海滩是人生必去的50的地方之一，所以不能错过。</p><br /><p><img src="http://fmn.rrimg.com/fmn063/20120922/1455/b_large_pmao_412a0000026c1263.jpg" border="0" /></p><br /><p><img src="http://fmn.rrfmn.com/fmn058/20120922/1500/b_large_xtJ0_59e0000015511261.jpg" border="0" /></p><br /><p>惠安古镇著名的日本桥。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn064/20121005/1435/b_head_5aNc_53cf000081f51262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn064/20121005/1435/b_large_VSPw_53cf000081f51262.jpg" border="0" /></p><br /><p>&nbsp; 租个摩托车，和沧海、远照、lily、郭女侠从惠安开始了宿醉五人组的旅程。</p><br /><p>&nbsp;</p><br /><p><img src="http://fmn.rrimg.com/fmn064/20120922/1200/b_large_VYeu_081a000086c21261.jpg" border="0" /></p><br /><p>&nbsp; 惠安古城很大，而且离海边还有段距离，所以租摩托车是个不错的办法，4美元可以租24个小时，加15块左右的汽油可以跑近100公里。在惠安的海边你可以发现无数个没有人的海滩，海滩也十分干净海水十分舒服，一路上几乎遇到个海滩就要下去游一会儿。在惠安遇到了太多的惊喜，空旷无人却又干净得令人发指的海滩、便宜到爆的路边小吃、风景美到没话说的海岸线&middot;&middot;&middot;&middot;&middot;&middot;</p><br /><p>&nbsp; 沿着海岸线飙车的感觉实在太high了，时不时的海风从旁边吹过来，热带的天气时而晴天时而大雨，可惜我的机车后座没有&ldquo;姑娘&rdquo;。</p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20120922/1515/b_large_4PVG_09ba000035831263.jpg" border="0" /></p><br /><p>海边的稻田，很有感觉吧。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn064/20121005/1440/b_head_e9yL_2b1f000074251263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn064/20121005/1440/b_large_3jgN_2b1f000074251263.jpg" border="0" /></p><br /><p>&nbsp;</p><br /><p><img src="http://fmn.rrimg.com/fmn056/20120922/1520/b_large_7mM7_029c0000378d1263.jpg" border="0" /></p><br /><p>&nbsp; 一路上骑了差不多40公里左右到了岘港，已经是晚上了，路边的小吃超便宜而且很好吃，吃了很多没吃过也叫不上名字的东西。哪个水果汁实在是太给力了，那叫个实在啊！后来回来的时候听从岘港回惠安的人说岘港海边大排档那里的海鲜便宜到想哭，可惜天太黑了没有找到。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn061/20121005/1415/b_head_EkpJ_0b9f00000dae1261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn061/20121005/1415/b_large_2KpZ_0b9f00000dae1261.jpg" border="0" /></p><br /><p>&nbsp; 从岘港回来的路上，空旷无人的海滩，阵阵的海风和海浪，漫天的星星，实在美得让人感动。可惜没有相机，留不住那些美好。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn064/20121005/1850/b_head_j054_667c0000819b1261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn064/20121005/1850/b_large_d0ki_667c0000819b1261.jpg" border="0" /></p><br /><p>&nbsp; 夜晚的惠安也美得一塌糊涂，惠安的灯笼在越南很出名，因为真的很美。</p><br /><p><img src="http://fmn.rrimg.com/fmn056/20120922/1530/b_large_rxLu_2d1f000032d91262.jpg" border="0" /></p><br /><p>&nbsp; 骑了一个多小时的车才回到旅馆，有点儿饿了，出来吃点儿东西。碰到一个中国婆婆开的饭店，她说她的父母都是中国人，她从小在越南长大只从父母那里学了一点儿汉语，她的孩子、孙子都不会说汉语了。她说她时常在想中国到底是什么样子，但是终究没有去过。</p><br /><p>&nbsp; 从岘港回来大家都平静不下来，实在有太多的惊喜。而且饭店里的local beer超级便宜，3000盾一杯还不到一块钱。宿醉五人组就边喝啤酒边讲自己的故事，真的很有感觉。最后，大家都喝得有点儿高，都有点儿醉了。远照说，几块钱就能喝醉，太幸福了。是啊，几块钱就能喝醉，好幸福。</p><br /><p><img thumbnail="http://fmn.rrfmn.com/fmn058/20121005/1835/b_head_afO6_6160000009e71262.jpg" title="photo-media" src="http://fmn.rrfmn.com/fmn058/20121005/1835/b_large_9pRK_6160000009e71262.jpg" border="0" /></p><br /><p>&nbsp; 喝醉了回去睡觉，因为明天还要去海边看日出。</p><br /><p>&nbsp; 第二天一早，不到4点就怕了起来，发动起摩托车直奔海滩。</p><br /><p><img src="http://fmn.rrimg.com/fmn062/20120922/1550/b_large_sX2q_55b1000005341262.jpg" border="0" /></p><br /><p>看完日出，换了个海滩，安安静静的躺在海边一整天，不时的脱了裤子游两圈儿。</p><br /><p><img src="http://fmn.rrimg.com/fmn056/20120922/1600/b_large_7bhp_4d7100002e131261.jpg" border="0" /></p><br /><p>&nbsp; 下午吃个饭就要走了，话说这咖啡实在太好喝了。</p><br /><p><img src="http://fmn.rrimg.com/fmn062/20120922/1625/b_large_Q4TB_258a00001f8d1263.jpg" border="0" /></p><br /><p>&nbsp; 又是一个sleeping bus 去芽庄，真的很舍不得惠安，如果下次再来越南的话一定要多在惠安住几天，这里真的有太多的惊喜。</p><br /><p>惠安花费：住宿：6刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 租摩托车+汽油：4刀+50000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 吃饭+小吃：216000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 咖啡+啤酒：50000盾</p><br /><p>总计：约120RMB</p><br /><p>4.芽庄（07.11-07.12）</p><br /><p>&nbsp; 一夜颠簸，一大早到了芽庄。</p><br /><p><img src="http://fmn.rrimg.com/fmn063/20120922/1620/b_large_5zR0_1a62000080b31263.jpg" border="0" /></p><br /><p>&nbsp; 一开始就定了四岛游的票，所以一下车就跟着四岛游的导游去坐船。一开始想四岛游才6刀，应该会很简单，后来才发现这6刀花得太值了。在第二个岛上会有潜泳的项目，虽然已经很便宜了，但是还是不舍得。当然浮潜是免费的，只好拿了浮潜的工具去。第一次见到海底的世界，珊瑚和海鱼触手可及，感觉太奇妙了。在第三个岛会有很high的游戏，就是&ldquo;跳海&rdquo;，导游会拿很多红酒在海里，只有从船上跳到海里的人才能喝得到。后来喝得都有点儿晕了，你们就知道我跳了多少次。</p><br /><p><img thumbnail="http://fmn.rrfmn.com/fmn058/20121005/1855/b_head_UIfJ_436e000030f51261.jpg" title="photo-media" src="http://fmn.rrfmn.com/fmn058/20121005/1855/b_large_nX1W_436e000030f51261.jpg" border="0" /></p><br /><p>&nbsp; 水花压的很小有木有？</p><br /><p><img src="http://fmn.rrimg.com/fmn056/20120924/1955/b_large_vapR_04f0000008d71263.jpg" border="0" /></p><br /><p>&nbsp; 船上的大餐！</p><br /><p><img src="http://fmn.rrimg.com/fmn063/20120924/2000/b_large_pLLy_5aad0000178d1262.jpg" border="0" /></p><br /><p>玩儿了一整天，难免会有点儿累，晚上怎么也得大吃一顿啊，越南的海鲜超便宜、超赞。</p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20120924/2010/b_large_QkJ6_51e9000044cc1261.jpg" border="0" /></p><br /><p>这个&ldquo;大贝壳&rdquo;很好吃，不知道叫什么。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn057/20121005/1415/b_head_e52f_025800000e801262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn057/20121005/1415/b_large_Coux_025800000e801262.jpg" border="0" /></p><br /><p>这么大的海胆才5块钱不到，不过里面的确没有多少肉。</p><br /><p><img thumbnail="http://fmn.rrfmn.com/fmn058/20121005/1925/b_head_sGOY_616000000b9c1262.jpg" title="photo-media" src="http://fmn.rrfmn.com/fmn058/20121005/1925/b_large_Bs2L_616000000b9c1262.jpg" border="0" /></p><br /><p>&nbsp;</p><br /><p>&nbsp;<img thumbnail="http://fmn.rrfmn.com/fmn059/20121005/1945/b_head_Gur8_15fd000008e31263.jpg" title="photo-media" src="http://fmn.rrfmn.com/fmn059/20121005/1945/b_large_k9qJ_15fd000008e31263.jpg" border="0" /></p><br /><p>&nbsp;酒足饭饱，到海边走走，刚好旅馆有个吉他，吹着海风坐在沙滩上和一群天南地北的人聊人生弹吉他，很有流浪的感觉，依旧是那首《青春》。</p><br /><p><img src="http://fmn.rrimg.com/fmn057/20120924/2025/b_large_j71Y_04f000000a1e1263.jpg" border="0" /></p><br /><p>第二天继续各种玩儿，继续各种美食，来张宿醉五人组的合照。</p><br /><p><img src="http://fmn.rrimg.com/fmn064/20120924/2105/b_large_j3x1_03ad00000c2a1263.jpg" border="0" /></p><br /><p>越南的海鲜火锅，又是各种薄荷叶和鱼露。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn062/20121005/1840/b_head_iczT_436e000030461261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn062/20121005/1840/b_large_LoCs_436e000030461261.jpg" border="0" /></p><br /><p>这条鱼才15块钱不到！</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn060/20121005/1840/b_head_gwdq_483300006c491261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn060/20121005/1840/b_large_WZKU_483300006c491261.jpg" border="0" /></p><br /><p>在芽庄的这两天玩儿的真的很high。</p><br /><p><img src="http://fmn.rrimg.com/fmn057/20120924/2115/b_large_F4V3_4bb5000089131261.jpg" border="0" /></p><br /><p>&nbsp;芽庄花费：住宿+早餐（2天）:16刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 海鲜（2晚）：290000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 午饭（海鲜火锅）：115000盾</p><br /><p>总计：约224RMB</p><br /><p>&nbsp;</p><br /><p>5.大叻（07.13-07.14）</p><br /><p>&nbsp; 大叻是个高原城市，海拔1500米左右，天气一年四季都很温和，不过我觉得有点儿太凉快了，在大夏天的热带还能遇到这么凉快的地方真是好奇怪。不知道是坐了一天的环山路还是因为真的有高原反应，第一天到大叻觉得特别的困。所以，第一件事情还是找旅馆。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn065/20121005/0925/b_head_6LqY_4cec00004b501262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn065/20121005/0925/b_large_DTNB_4cec00004b501262.jpg" border="0" /></p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20121004/2220/b_large_RJ9o_51c300002bcb1263.jpg" border="0" /></p><br /><p>&nbsp; 在越南随处可见的教堂，很美。</p><br /><p><img src="http://fmn.rrfmn.com/fmn059/20121004/2230/b_large_i7VE_436e000012b41261.jpg" border="0" /></p><br /><p>&nbsp; crazy house，听说是一个公主设计的，里面的建筑像童话故事里一样匪夷所思，很奇特很有趣，门票不贵，个人觉得可以去看一看。我在里面买了个自认为很有特色的礼物，结果好失败&middot;&middot;&middot; &middot;&middot;&middot;</p><br /><p><img src="http://fmn.rrimg.com/fmn061/20121004/2235/b_large_u0hm_7767000042161261.jpg" border="0" /></p><br /><p>&nbsp;</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn057/20121005/0905/b_head_BJIO_0b9f000003891261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn057/20121005/0905/b_large_Pksg_0b9f000003891261.jpg" border="0" /></p><br /><p>大叻的法式建筑，很漂亮，很干净。</p><br /><p><img src="http://fmn.rrimg.com/fmn057/20121004/2245/b_large_icSU_7b61000085dd1262.jpg" border="0" /></p><br /><p>&nbsp; 很喜欢大叻这个城市，不仅是因为这个城市很干净，而是在这遇到了很多好吃有很便宜的东西，我的咖啡都是在这里买的，足足买了4、5袋儿中原系列的咖啡粉和N多瓶炼奶，还不到100RMB，实在是过瘾。</p><br /><p>&nbsp;</p><br /><p>&nbsp; 谁能告诉我这到底是什么水果，吃起来清脆可口，但是实在不知道是什么东西。</p><br /><p><img src="http://fmn.rrimg.com/fmn057/20121004/2250/b_large_r8lS_5ab200005a101262.jpg" border="0" /></p><br /><p>&nbsp; 这是我吃过最好吃的冰淇淋了，奶香味十足，而且还有大颗大颗的椰肉。话说，越南的牛奶和酸奶跟国内的味道差距很大，总是有很浓的奶香味，难道是喝了太多的添加剂一时不习惯了吗。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn061/20121005/0815/b_head_mApl_667c00006c631261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn061/20121005/0815/b_large_HA78_667c00006c631261.jpg" border="0" /></p><br /><p>&nbsp;</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn064/20121005/0825/b_head_D11c_51c3000032c61263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn064/20121005/0825/b_large_AYG8_51c3000032c61263.jpg" border="0" /></p><br /><p>&nbsp; 然后又去了大叻大学，虽然硬件设施有点儿落后，但是大学的环境特别好。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn061/20121005/1915/b_head_Usqr_0b52000000281261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn061/20121005/1915/b_large_c5GM_0b52000000281261.jpg" border="0" /></p><br /><p><img thumbnail="http://fmn.rrfmn.com/fmn059/20121005/0855/b_head_KRX1_5c3b000005ec1263.jpg" title="photo-media" src="http://fmn.rrfmn.com/fmn059/20121005/0855/b_large_wuzs_5c3b000005ec1263.jpg" border="0" /></p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn057/20121005/0900/b_head_cjF4_61b1000003721263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn057/20121005/0900/b_large_HK0H_61b1000003721263.jpg" border="0" /></p><br /><p>&nbsp; 在大叻的晚上第一次感到很疲惫，真的很想和她说说话，想给她讲讲一路上的故事，可惜只有忙音。</p><br /><p>大叻花费：住宿（2晚）：7刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 吃饭+零食：259400</p><br /><p>总计：约124 RMB</p><br /><p>6.美奈（07.15）</p><br /><p>&nbsp; 美奈，是这几个城市里最好玩儿的一个。其实美奈更像是一个小渔村，但又是一个神奇的地方，一半海洋一半沙漠，红沙丘、白沙丘、黄沙丘，很奇妙。</p><br /><p>&nbsp;</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn063/20121005/0955/b_head_Vgt3_46bc00002feb1262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn063/20121005/0955/b_large_AhBX_46bc00002feb1262.jpg" border="0" /></p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn060/20121005/1050/b_head_8xQ4_65ed000004e91263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn060/20121005/1050/b_large_mUpE_65ed000004e91263.jpg" border="0" /></p><br /><p>海边旅馆很便宜，有自己的海滩。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn064/20121005/1005/b_head_T3AQ_707a0000bd4c1263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn064/20121005/1005/b_large_QDdT_707a0000bd4c1263.jpg" border="0" /></p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn064/20121005/1010/b_head_b0bi_5ab2000062131262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn064/20121005/1010/b_large_XuHX_5ab2000062131262.jpg" border="0" /></p><br /><p>&nbsp; 被这个小海星萌到了。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn063/20121005/1015/b_head_o8V7_0b9f0000055a1261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn063/20121005/1015/b_large_1DDy_0b9f0000055a1261.jpg" border="0" /></p><br /><p>&nbsp; 好多人都在挖蛤蜊。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn057/20121005/1025/b_head_GV8G_54b4000049ef1262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn057/20121005/1025/b_large_ATjw_54b4000049ef1262.jpg" border="0" /></p><br /><p>&nbsp; 在沙漠里玩儿是冒着生命危险的，一下子就陷进去了！</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn061/20121005/1015/b_head_TKEa_1f16000022e51262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn061/20121005/1015/b_large_0tN8_1f16000022e51262.jpg" border="0" /></p><br /><p>&nbsp; 我们的旅馆到底有多给力？游泳池边儿的老外实在是太开放了，就裸着晒太阳，搞得我都不好意思了，人家还大方地跟你打招呼。</p><br /><p><img thumbnail="http://fmn.rrfmn.com/fmn058/20121005/1025/b_head_C97R_66b8000012811261.jpg" title="photo-media" src="http://fmn.rrfmn.com/fmn058/20121005/1025/b_large_e4va_66b8000012811261.jpg" border="0" /></p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn061/20121005/1030/b_head_K6kW_1ced00003bac1262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn061/20121005/1030/b_large_Taes_1ced00003bac1262.jpg" border="0" /></p><br /><p>&nbsp; 在美奈依旧是租摩托车玩儿，因为有很多好玩儿的地方，靠你的小粗腿儿是走不过来滴。</p><br /><p>&nbsp; 终于知道火龙果是怎么长出来的了。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn063/20121005/1045/b_head_YpYe_2c8d000036d51262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn063/20121005/1045/b_large_rG9K_2c8d000036d51262.jpg" border="0" /></p><br /><p>美奈花费：住宿：5刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 吃饭：106000</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;租摩托车+加油：4刀</p><br /><p>总计：约90RMB&nbsp;</p><br /><p>7.胡志明（西贡）（07.16）</p><br /><p>&nbsp; 离开美奈就要去西贡了，虽然现在已经改名叫胡志明了，但是还是西贡这个名字更有味道一些，让人想到《情人》、《晚娘》&middot;&middot;&middot; &middot;&middot;&middot;夜里才到西贡，车开到范五老街的时候，一下子感受到了西贡的风情万种，到处是灯红酒绿。实在是受不了酒吧那淫靡的气氛，只能出去走走顺便把晚饭解决掉。盒饭超好吃，才25000盾，还不到8块钱。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn064/20121005/1115/b_head_19gG_06b4000101431261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn064/20121005/1115/b_large_GWR9_06b4000101431261.jpg" border="0" /></p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn062/20121005/1100/b_head_3WjH_5ab2000063841262.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn062/20121005/1100/b_large_QpBs_5ab2000063841262.jpg" border="0" /></p><br /><p>&nbsp; 来到西贡当然得看看这座城市，所以依旧是漫无目的的走。越南的雨季，雨说来就来，一场大雨把我们困在了便利店的门口，在便利店里看到了各种各样没有见过的饮料，得挨个尝一尝。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn056/20121005/1120/b_head_tFwY_06b4000101631261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn056/20121005/1120/b_large_smUN_06b4000101631261.jpg" border="0" /></p><br /><p>&nbsp; 等雨停了之后回到旅馆，一时间睡不着，就到阳台上坐一会、发一会儿呆。</p><br /><p><img thumbnail="http://fmn.rrfmn.com/fmn058/20121005/1125/b_head_Tmvd_06b4000101941261.jpg" title="photo-media" src="http://fmn.rrfmn.com/fmn058/20121005/1125/b_large_LedW_06b4000101941261.jpg" border="0" /></p><br /><p>&nbsp; 第二天一早，吃过早饭就赶紧去找卖明信片的地方。然后，我就在西贡的旅店里花了一早上的时间写明信片，不知道你们都收到了没有？</p><br /><p>&nbsp;</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn061/20121005/1130/b_head_gTeO_771b0000e4f61261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn061/20121005/1130/b_large_b6us_771b0000e4f61261.jpg" border="0" /></p><br /><p>&nbsp; 下午回河内的飞机，幸好旅店的老板娘会说一点儿汉语，帮我们写了一张&rdquo;求助信&ldquo;，一路上就是靠它找到的机场大巴。然后在机场等了很久都没找到回河内的航班，然后就傻傻的一直等。快到点儿的时候才发现不对劲，用蹩脚的英语问了一下机场的工作人员才知道我等了半天的地方时估计航班的航站楼，以百米冲刺的速度跑到另一座航站楼，还好。他们的机票就是一张小票，捷星果然会省钱。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn062/20121005/1145/b_head_BjN6_6dcb00002d6c1263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn062/20121005/1145/b_large_Fnrs_6dcb00002d6c1263.jpg" border="0" /></p><br /><p>&nbsp; 最然人诧异的是，越南的飞机竟然可以顶着大雨和闪电起飞，好勇敢。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn060/20121005/1150/b_head_MyWp_4682000010f91263.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn060/20121005/1150/b_large_GOkt_4682000010f91263.jpg" border="0" /></p><br /><p>晚上又回到了河内，依旧住来时的旅店。老板看到熟悉的面孔，给了个特价单人房，5刀。</p><br /><p>胡志明花费：住宿：5刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;吃饭+零食+机场大巴：140000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;（不计明信片和邮票花费）</p><br /><p>总计：约75RMB</p><br /><p>1.1 河内-南宁（01.17）</p><br /><p>&nbsp; 前一天晚上到得河内，睡了一觉起来，一大早就要起来去买回南宁的车票了。还是国际大巴最方便，坐了个摩的去找山德大巴，摩的师傅太周到了，一路上各种帮我找。然后买了车票后发现还有好多越南盾都没有花出去，所以，终于可以放开手脚花钱啦！但是，出了还剑湖东西实在便宜的吓人，早饭吃了很多东西才花了不到4块钱。</p><br /><p>&nbsp; 终于要回去了，有点儿想家了。依旧是来时的那条路，依旧要过友谊关，依旧是坑爹的边检。这次没有再给越南边检小费了，硬是把护照塞了进去又捞了出来。越南和国内的边检依旧很轻松，根本不需要报税什么的。</p><br /><p><img thumbnail="http://fmn.rrimg.com/fmn065/20121005/1205/b_head_uA1r_771b0000e6311261.jpg" title="photo-media" src="http://fmn.rrimg.com/fmn065/20121005/1205/b_large_jU0a_771b0000e6311261.jpg" border="0" /></p><br /><p>最后一天河内花费：住宿：5刀</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 早饭（法棍+饮料）：12000盾</p><br /><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 回南宁大巴：150RMB</p><br /><p>总计：约185RMB</p><br /><p>&nbsp;</p><br /><p>&nbsp;</p><br /><p><strong><span style="color: #ff0000;">越南总花费：1739RMB</span></strong><span style="color: #ff0000;"><span style="color: #000000;">（不含签证费用）</span></span></p><br /><p>&nbsp; 近半个月的旅程终于结束了，一个人在路上会思考很多也会收获很多，会看到很多不同的人和不同的生活方式。你会发现，原来人可以这样生活。总之，这次旅行物超所值。如果还有机会再去的话，希望是和姑娘你一起去。</p><br /><p>&nbsp;</p><br /><p>&nbsp; 少年，带2000块去越南吧！</p><br /><p>&nbsp;</p><br /><p>&nbsp;</p><br /><p>&nbsp;&nbsp;</p><br /><p>&nbsp;</p><br /><p>&nbsp;</p><br /><p>&nbsp;</p>                                     
+</div>
+</div>
+</div>
+<p class="stat-area">
+<span class="a-nav clearfix"><span>源地址：<a href="http://blog.renren.com/GetEntry.do?id=874229861&owner=255235788" target="_blank">http://blog.renren.com/GetEntry.do?id=874229861&amp;owner=255235788</a></span>
+</span>   
+<div class="share-operations">                                                                                                                                    
+<div class="new-share-info">                                                                                                                            
+<span class="">来源：<a href="http://blog.renren.com/GetEntry.do?id=874229861&owner=255235788" target="_blank">常凯的日志</a></span>                                                                                                    
+<span class="pipe">|</span>                                                                                                                           
+<span>分享 <strong>13935</strong></span>                                                                                                            
+<span class="pipe">|</span>                                                                                                                           
+<span>浏览 <strong>51236</strong></span>  						                                                                                                      
+</div>                                                                                                                                                  
+<a class="comment-act" href="#mycomment" onclick="window.location.href='#mycomment';$('miniEditorTextarea').focus();return false;"><span>评论</span></a>
+<span class="pipe">|</span>
+<a class="share_new" data-share="{stype:'create_share_sysn',id:14514445893,owner:357164426,host:357164426}"href="#nogo">分享</a>
+<span class="pipe">|</span>           
+<a href="#nogo" onclick='ILike.toggleUserLike()' id='ILike_UserLike_Handle'><span>赞</span></a>  
+<span class="pipe">|</span> 
+<a href="http://admin.renren.com/admin/newreportshare.do?contentId=14514445893&userId=357164426&origURL=http://blog.renren.com/share/357164426/14514445893" target="_blank">举报</a>                                               
+</div>   </p>                   
+<div class="combox_share">
+<ul class="filter clearfix">
+<li>
+<a id="friendCmts" href="javascript:;">
+<span> TA的分享评论 
+</span>
+</a>
+</li>
+<li>
+<a id="allCmts" href="javascript:;"><span>全站评论</span></a>
+</li>
+</ul>
+<div id="cmtsListCon">
+<div class="replies" id="friendCmtsList" style="display:none"><div class="replies" id="ilike">
+<dl class="replies" style="display:none"></dl>
+</div><div id="friendCmts_commContainer_14514445893"><dl class="replies" id="friendCmts_comment_list" >
+<dd id="friendCmts_comment_2922272564">   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922272564&userId=357164426&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> <a href="http://www.renren.com/profile.do?id=357164426" namecard="357164426" title="龙思云" class="avatar">
+<img width="50" height="50" class="avatar" alt="龙思云" src="http://hdn.xnimg.cn/photos/hdn421/20121025/1610/tiny_Ghat_5df8000012e91375.jpg">
+</a>    
+<div class="info"><a href="http://www.renren.com/profile.do?id=357164426" namecard="357164426" 
+title="龙思云" >龙思云</a> <span class="time">
+2012-10-26 17:18
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>好便宜。。。</span>
+</p>
+<a href="javascript:void(0);" cmd="{t:'reply',sid:14514445893,oid:357164426,oname:'龙思云',id:2922272564}">回复</a></div>
+</dd>
+<dd id="friendCmts_comment_2922320056">   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922320056&userId=231994874&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> <a href="http://www.renren.com/profile.do?id=231994874" namecard="231994874" title="陈稚瑶" class="avatar">
+<img width="50" height="50" class="avatar" alt="陈稚瑶" src="http://hdn.xnimg.cn/photos/hdn121/20121009/1825/tiny_Wmlh_738f0002a19d1375.jpg">
+</a>    
+<div class="info"><a href="http://www.renren.com/profile.do?id=231994874" namecard="231994874" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">陈稚瑶</a> <span class="time">
+2012-10-26 17:37
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复龙思云: 人家也差不多呢。。虽然是三千多但是实际上有从北京到南宁的来回机票钱。。。</span>
+</p>
+<a href="javascript:void(0);" cmd="{t:'reply',sid:14514445893,oid:231994874,oname:'陈稚瑶',id:2922320056}">回复</a></div>
+</dd>	
+</dl>
+</div>
+</div>
+<div class="replies" id="allCmtsList" style="display:none"><div id="allCmts_commContainer_14514445893">
+<dl class="replies">
+<dt class="show-all" id="allCmts_showMore_14514445893">
+<a onclick="XN.app.share.CommentManger.getMoreCmt(14514445893,357164426);return false;" id="allCmts_showMoreComments" href="#nologo">显示较早之前的评论</a><span id="allCmts_tempLoading_14514445893" style="visibility:hidden">加载中&nbsp;<img src="http://xnimg.cn/imgpro/bg/indicator_blue_small.gif"/></span>
+</dt></dl>
+<dl class="replies" id="allCmts_comment_list" >
+<dd id="allCmts_comment_2922272564"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922272564&userId=357164426&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=357164426" namecard="357164426" title="龙思云" class="avatar">
+<img width="50" height="50" class="avatar" alt="龙思云" src="http://hdn.xnimg.cn/photos/hdn421/20121025/1610/tiny_Ghat_5df8000012e91375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=357164426" namecard="357164426" 
+title="龙思云" >龙思云</a> <span class="time">
+2012-10-26 17:18
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>好便宜。。。</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922272903"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922272903&userId=289518938&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=289518938" namecard="289518938" title="刘嘉云Anthea" class="avatar">
+<img width="50" height="50" class="avatar" alt="刘嘉云Anthea" src="http://hdn.xnimg.cn/photos/hdn521/20100306/2135/h_tiny_fIAy_54bc0007ecc12f74.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=289518938" namecard="289518938" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">刘嘉云Anthea</a> <span class="time">
+2012-10-26 17:19
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复李知锐：得怎么个省法，不过出去看看外面的世界真心好~</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922274223"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922274223&userId=269895670&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=269895670" namecard="269895670" title="伍榕燕" class="avatar">
+<img width="50" height="50" class="avatar" alt="伍榕燕" src="http://hdn.xnimg.cn/photos/hdn221/20120903/1605/h_tiny_c7ue_215e000099911375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=269895670" namecard="269895670" 
+title="伍榕燕" >伍榕燕</a> <span class="time">
+2012-10-26 17:19
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>一起去吧</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922275256"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922275256&userId=262506453&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=262506453" namecard="262506453" title="郑宪" class="avatar">
+<img width="50" height="50" class="avatar" alt="郑宪" src="http://hdn.xnimg.cn/photos/hdn221/20121024/1045/tiny_lHlq_72e10003c81e1375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=262506453" namecard="262506453" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">郑宪</a> <span class="time">
+2012-10-26 17:19
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复伍榕燕：好！~\(≧▽≦)/~</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922276306"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922276306&userId=269895670&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=269895670" namecard="269895670" title="伍榕燕" class="avatar">
+<img width="50" height="50" class="avatar" alt="伍榕燕" src="http://hdn.xnimg.cn/photos/hdn221/20120903/1605/h_tiny_c7ue_215e000099911375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=269895670" namecard="269895670" 
+title="伍榕燕" >伍榕燕</a> <span class="time">
+2012-10-26 17:20
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复郑宪：真滴真滴</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922296579"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922296579&userId=224314133&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=224314133" namecard="224314133" title="罗静" class="avatar">
+<img width="50" height="50" class="avatar" alt="罗静" src="http://hdn.xnimg.cn/photos/hdn221/20120809/1420/tiny_lNKn_28980000248b1376.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=224314133" namecard="224314133" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">罗静</a> <span class="time">
+2012-10-26 17:28
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>龙仔你真的从来木有去过么~I mean 从南宁~</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922299419"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922299419&userId=402757184&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=402757184" namecard="402757184" title="刘玮真" class="avatar">
+<img width="50" height="50" class="avatar" alt="刘玮真" src="http://hdn.xnimg.cn/photos/hdn121/20121003/2310/h_tiny_isXe_3b56000009f81376.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=402757184" namecard="402757184" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">刘玮真</a> <span class="time">
+2012-10-26 17:29
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复邵首诚: 恩，那里很美啊，我想去～</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922302498"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922302498&userId=240431172&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=240431172" namecard="240431172" title="刘干鱼·Dryfish" class="avatar">
+<img width="50" height="50" class="avatar" alt="刘干鱼·Dryfish" src="http://hdn.xnimg.cn/photos/hdn421/20120707/2335/h_tiny_tMHA_6556000003771376.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=240431172" namecard="240431172" 
+title="刘干鱼·Dryfish" >刘干鱼·Dryfish</a> <span class="time">
+2012-10-26 17:30
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>然后被各种东南亚人骗钱。。。</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922302959"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922302959&userId=80323210&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=80323210" namecard="80323210" title="张圣裔" class="avatar">
+<img width="50" height="50" class="avatar" alt="张圣裔" src="http://hdn.xnimg.cn/photos/hdn321/20110912/1620/tiny_p5cJ_28356b019117.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=80323210" namecard="80323210" 
+title="张圣裔" >张圣裔</a> <span class="time">
+2012-10-26 17:30
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复林陈瑶:老娘也得继续找工作了，HWoffer 黄了啊。老天注定咱俩还得去上海找工作啊。</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922305035"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922305035&userId=228690675&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=228690675" namecard="228690675" title="许笑颖허소영" class="avatar">
+<img width="50" height="50" class="avatar" alt="许笑颖허소영" src="http://hdn.xnimg.cn/photos/hdn221/20120324/2130/tiny_sgIn_4914m019117.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=228690675" namecard="228690675" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">许笑颖허소영</a> <span class="time">
+2012-10-26 17:31
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复许方元: 你最近没动静。又跑出去玩儿了吧？不是偷偷跑回国了吧？</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922320056"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922320056&userId=231994874&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=231994874" namecard="231994874" title="陈稚瑶" class="avatar">
+<img width="50" height="50" class="avatar" alt="陈稚瑶" src="http://hdn.xnimg.cn/photos/hdn121/20121009/1825/tiny_Wmlh_738f0002a19d1375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=231994874" namecard="231994874" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">陈稚瑶</a> <span class="time">
+2012-10-26 17:37
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复龙思云: 人家也差不多呢。。虽然是三千多但是实际上有从北京到南宁的来回机票钱。。。</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922330304"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922330304&userId=284287894&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=284287894" namecard="284287894" title="王球" class="avatar">
+<img width="50" height="50" class="avatar" alt="王球" src="http://hdn.xnimg.cn/photos/hdn421/20120514/1220/tiny_yKK5_10254d019117.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=284287894" namecard="284287894" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">王球</a> <span class="time">
+2012-10-26 17:41
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span><a href='http://www.renren.com/g/336047986' namecard='336047986' target='_blank'>@程雅韵</a> <a href='http://www.renren.com/g/383021769' namecard='383021769' target='_blank'>@唐好</a> <a href='http://www.renren.com/g/383363535' namecard='383363535' target='_blank'>@陶润雨^3W.Y^</a> <a href='http://www.renren.com/g/314086790' namecard='314086790' target='_blank'>@佟瑶</a> 有机会去吧~看着很赞~</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922340836"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922340836&userId=336047986&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=336047986" namecard="336047986" title="程雅韵" class="avatar">
+<img width="50" height="50" class="avatar" alt="程雅韵" src="http://hdn.xnimg.cn/photos/hdn121/20120929/2350/h_tiny_WdCj_338400003b451375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=336047986" namecard="336047986" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">程雅韵</a> <span class="time">
+2012-10-26 17:45
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>╭(╯3╰)╮</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922343983"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922343983&userId=284287894&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=284287894" namecard="284287894" title="王球" class="avatar">
+<img width="50" height="50" class="avatar" alt="王球" src="http://hdn.xnimg.cn/photos/hdn421/20120514/1220/tiny_yKK5_10254d019117.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=284287894" namecard="284287894" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">王球</a> <span class="time">
+2012-10-26 17:46
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复程雅韵: 不觉得很值吗？  太想出去散心了。。等我不忙的时候。</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922347917"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922347917&userId=336047986&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=336047986" namecard="336047986" title="程雅韵" class="avatar">
+<img width="50" height="50" class="avatar" alt="程雅韵" src="http://hdn.xnimg.cn/photos/hdn121/20120929/2350/h_tiny_WdCj_338400003b451375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=336047986" namecard="336047986" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">程雅韵</a> <span class="time">
+2012-10-26 17:48
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复王球：是的啊~那个表情是赞同啦</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922367056"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922367056&userId=284287894&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=284287894" namecard="284287894" title="王球" class="avatar">
+<img width="50" height="50" class="avatar" alt="王球" src="http://hdn.xnimg.cn/photos/hdn421/20120514/1220/tiny_yKK5_10254d019117.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=284287894" namecard="284287894" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">王球</a> <span class="time">
+2012-10-26 17:55
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复程雅韵: 哈哈！</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922375462"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922375462&userId=279079269&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=279079269" namecard="279079269" title="黄晓倩" class="avatar">
+<img width="50" height="50" class="avatar" alt="黄晓倩" src="http://hdn.xnimg.cn/photos/hdn121/20120329/2110/tiny_bwyf_45899d019118.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=279079269" namecard="279079269" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">黄晓倩</a> <span class="time">
+2012-10-26 17:58
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>//吴程程://林超凡://陈子阳:分享日志</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922377794"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922377794&userId=279079269&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=279079269" namecard="279079269" title="黄晓倩" class="avatar">
+<img width="50" height="50" class="avatar" alt="黄晓倩" src="http://hdn.xnimg.cn/photos/hdn121/20120329/2110/tiny_bwyf_45899d019118.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=279079269" namecard="279079269" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">黄晓倩</a> <span class="time">
+2012-10-26 17:59
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>好想去旅游</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922379647"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922379647&userId=249243569&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=249243569" namecard="249243569" title="许方元" class="avatar">
+<img width="50" height="50" class="avatar" alt="许方元" src="http://hdn.xnimg.cn/photos/hdn521/20120808/0045/tiny_MZ73_7858000055dd1375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=249243569" namecard="249243569" 
+title="许方元" >许方元</a> <span class="time">
+2012-10-26 18:00
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复许笑颖허소영: 没回国，去越南附近国家了嘿嘿</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922389798"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922389798&userId=236829907&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=236829907" namecard="236829907" title="赵君毓" class="avatar">
+<img width="50" height="50" class="avatar" alt="赵君毓" src="http://hdn.xnimg.cn/photos/hdn521/20120922/1225/tiny_EnUx_6d0f0000f12e1376.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=236829907" namecard="236829907" 
+title="赵君毓" >赵君毓</a> <span class="time">
+2012-10-26 18:04
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复陆洲lz:你？我不信，要说<a href='http://www.renren.com/g/235184074' namecard='235184074' target='_blank'>@张晨龙★BRADY</a> 不被诱惑，我信<img src='http://a.xnimg.cn/imgpro/emotions/tie/2.gif?ver=1' alt='谄笑'  /><img src='http://a.xnimg.cn/imgpro/icons/statusface/16.gif?ver=1' alt='大笑'  /></span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922397636"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922397636&userId=398937215&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" title="玉妍" class="avatar">
+<img width="50" height="50" class="avatar" alt="玉妍" src="http://hdn.xnimg.cn/photos/hdn421/20110815/1730/h_tiny_yIih_6295000316c82f76.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" 
+title="玉妍" >玉妍</a> <span class="time">
+2012-10-26 18:07
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>//姚俊龙://刘艳丹://徐哲雅://张园:Mark    我就是南宁人，嘻嘻</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922397660"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922397660&userId=398937215&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" title="玉妍" class="avatar">
+<img width="50" height="50" class="avatar" alt="玉妍" src="http://hdn.xnimg.cn/photos/hdn421/20110815/1730/h_tiny_yIih_6295000316c82f76.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" 
+title="玉妍" >玉妍</a> <span class="time">
+2012-10-26 18:07
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>//姚俊龙://刘艳丹://徐哲雅://张园:Mark    我就是南宁人，嘻嘻</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922398313"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922398313&userId=398937215&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" title="玉妍" class="avatar">
+<img width="50" height="50" class="avatar" alt="玉妍" src="http://hdn.xnimg.cn/photos/hdn421/20110815/1730/h_tiny_yIih_6295000316c82f76.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" 
+title="玉妍" >玉妍</a> <span class="time">
+2012-10-26 18:08
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>//姚俊龙://刘艳丹://徐哲雅://张园:Mark    我就是南宁人，嘻嘻</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922398354"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922398354&userId=398937215&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" title="玉妍" class="avatar">
+<img width="50" height="50" class="avatar" alt="玉妍" src="http://hdn.xnimg.cn/photos/hdn421/20110815/1730/h_tiny_yIih_6295000316c82f76.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=398937215" namecard="398937215" 
+title="玉妍" >玉妍</a> <span class="time">
+2012-10-26 18:08
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>//姚俊龙://刘艳丹://徐哲雅://张园:Mark    我就是南宁人，嘻嘻</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922416139"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922416139&userId=228014915&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=228014915" namecard="228014915" title="曹佳宁" class="avatar">
+<img width="50" height="50" class="avatar" alt="曹佳宁" src="http://hdn.xnimg.cn/photos/hdn321/20120924/1220/tiny_taV8_6ca2000113f11376.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=228014915" namecard="228014915" 
+title="曹佳宁" >曹佳宁</a> <span class="time">
+2012-10-26 18:15
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复王嫱: 把我装你行里箱里带着 哈哈哈</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922423155"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922423155&userId=360254699&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=360254699" namecard="360254699" title=".        高新洲" class="avatar">
+<img width="50" height="50" class="avatar" alt=".        高新洲" src="http://hdn.xnimg.cn/photos/hdn121/20121023/2235/h_tiny_kohO_3c6c0000278d1375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=360254699" namecard="360254699" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">.        高新洲</a> <span class="time">
+2012-10-26 18:18
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>带上我，我也想去</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922424302"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922424302&userId=333071028&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=333071028" namecard="333071028" title="赵津晨" class="avatar">
+<img width="50" height="50" class="avatar" alt="赵津晨" src="http://hdn.xnimg.cn/photos/hdn221/20121004/1750/h_tiny_LEuD_27950000065e1376.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=333071028" namecard="333071028" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">赵津晨</a> <span class="time">
+2012-10-26 18:19
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>个人觉得这个花费写写而已，远远不够，虽然那是个穷地方</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922424317"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922424317&userId=333071028&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=333071028" namecard="333071028" title="赵津晨" class="avatar">
+<img width="50" height="50" class="avatar" alt="赵津晨" src="http://hdn.xnimg.cn/photos/hdn221/20121004/1750/h_tiny_LEuD_27950000065e1376.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=333071028" namecard="333071028" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">赵津晨</a> <span class="time">
+2012-10-26 18:19
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>个人觉得这个花费写写而已，远远不够，虽然那是个穷地方</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922424659"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922424659&userId=314086790&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=314086790" namecard="314086790" title="佟瑶" class="avatar">
+<img width="50" height="50" class="avatar" alt="佟瑶" src="http://hdn.xnimg.cn/photos/hdn421/20121001/1510/tiny_4cTy_733b0001df7b1375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=314086790" namecard="314086790" 
+title="连续登录7天, 即可获得橙名特权" class="lively-user">佟瑶</a> <span class="time">
+2012-10-26 18:19
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span>回复王球：我要去澳大利亚！</span>
+</p></div>
+</dd>
+<dd id="allCmts_comment_2922434306"><!--   
+<span class="float-right"><a target="_blank" href="http://admin.renren.com/admin/newuserreport.do?type=30&owner=357164426&contentId=2922434306&userId=244180619&pid=14514445893&origURL=http%3A%2F%2Fshare.renren.com%2Fshare%2FGetShare.do%3Fid%3D14514445893%26owner%3D357164426" class="reply-report">举报</a></span> -->
+<a href="http://www.renren.com/profile.do?id=244180619" namecard="244180619" title="贺妍玢" class="avatar">
+<img width="50" height="50" class="avatar" alt="贺妍玢" src="http://hdn.xnimg.cn/photos/hdn221/20120821/1740/tiny_IqJY_63860000fb881375.jpg">
+</a> 
+<div class="info"><!--  --><a href="http://www.renren.com/profile.do?id=244180619" namecard="244180619" 
+title="贺妍玢" >贺妍玢</a> <span class="time">
+2012-10-26 18:23
+</span>
+</div>
+<div class="reply">
+<p class="content">
+<span><a href='http://www.renren.com/g/237805502' namecard='237805502' target='_blank'>@熊卿</a> 什么时候带我去吧</span>
+</p></div>
+</dd>	
+</dl>
+</div>
+</div>
+</div>
+<input type="hidden" value="王然MISSING" id="guestName"/>
+<div class="boxcont">
+<div id="ajax_msgerror" class="errors_div ajax_msgerror" style="display: none;"></div><link href="http://s.xnimg.cn/a20254/csspro/module/minieditor.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://s.xnimg.cn/a45224/jspro/xn.ui.emoticons.js"></script>
+<form id="comment_form_14514445893" onsubmit="return false;" onkeydown="if(event.keyCode == 13 && event.ctrlKey){XN.app.share.CommentManger.save(14514445893);}">
+<div class="commentinshare clearfix">
+<div class="user-avatar">
+<img alt="王然MISSING" src="http://hdn.xnimg.cn/photos/hdn321/20100109/1830/h_tiny_VDLP_4574000230b32f75.jpg" class="avatar">
+</div>
+<div class="m-editor" id="miniEditor">
+<div class="m-editor-textarea">
+<textarea id="miniEditorTextarea" name="comment"></textarea>
+</div>
+<div id="miniEditorAction" class="m-editor-action clearfix" style="float:right;">
+<a id="atBtn" class="m-editor-at" href="#nogo">点名</a>
+<a href="javascript:;" id="emoBtn" class="m-editor-emo">表情</a>
+</div>
+<div id="shareVerify_14514445893" style="display:none">
+<label for="schoolInfoCode">
+<em>*</em>验证码:
+</label>
+<input type="text" tabindex="21" maxlength="5" size="5" id="shareInfoCode14514445893" name="shareInfoCode14514445893" class="inputtext validate-code"/></div>
+<div class="m-editor-submit" style="float:left">
+<input  id="submit_comment" name="submit_comment" type="submit"  onclick="XN.app.share.CommentManger.save(14514445893);" value="发表评论" class="input-button input-submit1" />
+<label style="color:#888;margin-left:5px; _margin-left:0px;"><input type="checkbox" id="sysnblog" value="1" checked="true"/>同时评论到原日志</label>
+<label style="color:#888;margin-left:5px; _margin-left:0px; "><input type="checkbox" id="doShare" value="1"/>同时分享</label>
+</div>
+<input type="hidden" id="repetNo" name="repetNo" value="0"/>
+<input type="hidden" id="replyToCommentId" name="replyToCommentId" value="0"/>
+<input type="hidden" id="shareId" name="shareId" value="14514445893"/>
+<input type="hidden" id="shareOwner" name="shareOwner" value="357164426"/>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+XN.dom.ready(function(){
+var editor = new XN.ui.emoticons({
+input :$('miniEditorTextarea'),
+button:$('emoBtn'),
+atBtn : $('atBtn'),
+url : 'http://status.' + XN.env.domain + '/getubblist.do?type=2'
+});
+},true);
+</script>
+</div>                                                 
+</div>
+</div>
+<div class="share-sidebar terminal-side">
+<div class="Widget_flash">
+<div id="ad100000000069"></div>
+</div>
+<div class="more-shares">
+<div class="nav-tabs">
+<ul class="tabs">
+<li id="othershareTab">
+<a href="#nogo" onfocus="this.blur()">
+TA的其它分享</a>
+</li>
+<li id="hotshareTab">
+<a href="#nogo" onfocus="this.blur()">热门分享</a>
+</li>
+</ul>
+</div>
+<div id="othersharelist" class="hot-blog-sidebar shares-list">
+<ul class="blog-list clearfix">
+<li>
+<a title="&#12298;&#20320;&#20026;&#20160;&#20040;&#27809;&#26377;&#30007;/&#22899;&#26379;&#21451;&#65311;&#12299;&#21271;&#22823;&#19987;&#23478;&#29616;&#22330;&#35843;&#26597;&#24471;&#20986;&#24778;&#20154;&#32467;&#26524;" href="http://blog.renren.com/GetEntry.do?id=877794874&amp;owner=326391388&amp;shareID=14505495426&amp;shareOwner=357164426&amp;from=otherblog" target="_blank">&#12298;&#20320;&#20026;&#20160;&#20040;&#27809;&#26377;&#30007;/&#22899;&#26379;&#21451;&#65311;&#12299;&#21271;&#22823;&#19987;&#23478;&#29616;&#22330;&#35843;&#26597;&#24471;&#20986;&#24778;&#20154;&#32467;&#26524;</a>
+<p class="blog-brief">
+&#36317;2012.11.11&#33410;&#19981;&#36275;&#20313;20&#22825;&#20043;&#26085;&#65292;&#21271;&#20140;&#22823;&#23398;&#26576;&#25945;&#25480;&#22312;&#24320;... </p>
+</li>
+<li>
+<a title="&#9734;&#9733;&#9734;&#29233;&#24515;&#31038;&#25910;&#34915;&#26381;&#21862;&#9734;&#9733;&#9734;" href="http://blog.renren.com/GetEntry.do?id=877701892&amp;owner=389977163&amp;shareID=14504396479&amp;shareOwner=357164426&amp;from=otherblog" target="_blank">&#9734;&#9733;&#9734;&#29233;&#24515;&#31038;&#25910;&#34915;&#26381;&#21862;&#9734;&#9733;&#9734;</a>
+<p class="blog-brief"></p>
+</li>
+<li>
+<a title="&#9734;&#9733;&#9734;&#29233;&#24515;&#31038;&#25910;&#34915;&#26381;&#21862;&#9734;&#9733;&#9734;" href="http://blog.renren.com/GetEntry.do?id=877701892&amp;owner=389977163&amp;shareID=14503636990&amp;shareOwner=357164426&amp;from=otherblog" target="_blank">&#9734;&#9733;&#9734;&#29233;&#24515;&#31038;&#25910;&#34915;&#26381;&#21862;&#9734;&#9733;&#9734;</a>
+<p class="blog-brief"></p>
+</li>				
+</ul>
+<div class="show-more">
+<a href="http://share.renren.com/share/357164426">显示更多 »</a>
+</div></div> 		   
+<div id="hotsharelist" class="hot-blog-sidebar shares-list">			
+<ul class="blog-list clearfix">
+<li>
+<a title="&#23665;&#35199;&#22659;&#20869;&#19981;&#20026;&#20154;&#30693;&#30340;&#32654;&#26223;~~~~&#65288;&#23665;&#35199;&#20154;&#36716;&#36215; &#21247;&#22238;&#22797;&#65289;" href="http://blog.renren.com/GetEntry.do?id=859878665&amp;owner=331614554&amp;shareID=14482663298&amp;shareOwner=470808200&amp;from=endhotblog" target="_blank">&#23665;&#35199;&#22659;&#20869;&#19981;&#20026;&#20154;&#30693;&#30340;&#32654;&#26223;~~~~&#65288;&#23665;&#35199;&#20154;&#36716;&#36215; &#21247;&#22238;&#22797;&#65289;</a>
+<p class="blog-brief">
+&#19981;&#35770;&#26159;&#23665;&#35199;&#20154;&#65292;&#36824;&#26159;&#23665;&#35199;&#36825;&#20010;&#22320;&#26041;&#65292;&#39592;&#23376;&#37324;&#37117;&#28385;&#36879;&#30528;&#20013;&#24248;&#24471;&#19981;&#33021;&#20877;&#20013;... </p>
+</li>
+<li>
+<a title="&#29992;&#37038;&#31665;&#21457;&#31616;&#21382; &#24212;&#27880;&#24847;&#21738;&#20123;" href="http://blog.renren.com/GetEntry.do?id=757858730&amp;owner=222147756&amp;shareID=14497999710&amp;shareOwner=222236974&amp;from=endhotblog" target="_blank">&#29992;&#37038;&#31665;&#21457;&#31616;&#21382; &#24212;&#27880;&#24847;&#21738;&#20123;</a>
+<p class="blog-brief"></p>
+</li>
+<li>
+<a title="&#12298;&#20320;&#20026;&#20160;&#20040;&#27809;&#26377;&#30007;/&#22899;&#26379;&#21451;&#65311;&#12299;&#21271;&#22823;&#19987;&#23478;&#29616;&#22330;&#35843;&#26597;&#24471;&#20986;&#24778;&#20154;&#32467;&#26524;" href="http://blog.renren.com/GetEntry.do?id=877794874&amp;owner=326391388&amp;shareID=14511393234&amp;shareOwner=402385140&amp;from=endhotblog" target="_blank">&#12298;&#20320;&#20026;&#20160;&#20040;&#27809;&#26377;&#30007;/&#22899;&#26379;&#21451;&#65311;&#12299;&#21271;&#22823;&#19987;&#23478;&#29616;&#22330;&#35843;&#26597;&#24471;&#20986;&#24778;&#20154;&#32467;&#26524;</a>
+<p class="blog-brief"></p>
+</li>				
+</ul>
+<div class="show-more">
+<a href="http://share.renren.com/share/hot">显示更多 »</a>
+</div>
+</div>
+</div>    
+<div id="relative-content-con"></div> <div class="Widget">
+<div id="ad100000000070"></div>
+<div id="ad100000000071"></div>
+</div>
+<p class="share-corporation-side share-corporation-new">
+<a href="http://share.renren.com/share/help/corporation" target="_blank">如何给网站添加快捷分享</a>
+</p>
+</div></div>
+</div>
+</div>
+</div>
+<div id="footer">		
+<div class="site-footer">
+<div class="main">
+<ul class="link">
+<li><a href="http://www.renren.com/siteinfo/about">关于</a></li>
+<li><a href="http://dev.renren.com">开放平台</a></li>
+<li><a href="http://wan.renren.com">人人游戏</a></li>
+<li><a href="http://page.renren.com/register/regGuide/">公共主页</a></li>
+<li><a href="http://mobile.renren.com/mobilelink.do?psf=40002">手机人人</a></li>
+<li><a href="http://www.nuomi.com">团购</a></li>
+<li><a href="http://www.jiexi.com">皆喜网</a></li>
+<li><a href="http://ads.renren.com">营销服务</a></li>
+<li><a href="http://job.renren-inc.com/">招聘</a></li>
+<li><a href="http://support.renren.com/helpcenter">客服帮助</a></li>
+<li><a href="http://www.renren.com/siteinfo/privacy">隐私</a></li>
+</ul>
+<span class="copyright">
+人人网<span title="revision82154; SJSWT42-11.opi.com">&copy;</span>2012</span>
+</div>
+<div class="haoes">
+<span class="company-name">北京千橡网景科技发展有限公司：</span>
+<span>文网文[2009]169号</span><span class="dot">·</span><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP证090254号</a><span class="dot">·</span><span>京公网安备110000000009号</span><span class="dot">·</span><span>甲测资字11002066</span><span class="dot">·</span><span>文化部监督电子邮箱：wlwh@vip.sina.com</span><span class="dot">·</span><a href="http://a.xnimg.cn/n/core/res/certificate.jpg" target="_blank">互联网药品信息服务资格证</a>
+</div>
+</div>
+</div></div>
+<div id="console_log" style="position:absolute;top:0;left:0;"></div><!--[if gt IE 6]><script>if(window.ActiveXObject&&!window.XMLHttpRequest)XN.disableWebpager=true;</script><![endif]--><iframe id="imengine" name="imengine" src="http://wpi.renren.com/wtalk/ime.htm?v=5" frameBorder="0" style="position:absolute;left:-1000pt;top:20pt;width:200pt;height:100pt;"></iframe>
+<div id="bottombar"></div>
 
-  <body>
+<div id="toolBackTo" class="back-to" style="display:none;">
+<a stats="site_footer_back_to_top" class="backtotop" href="#top" onclick="window.scrollTo(0,0);return false;">返回顶部
+<img stats="site_footer_back_to_top" src="http://a.xnimg.cn/imgpro/button/back-tip.png" class="back-tip" />
+</a>
+</div>
+<script type="text/javascript">
+XN.dom.ready(function(){
+var odom;
+object.use('dom', function(dom){
+odom = dom;
+});
+var bt = $('toolBackTo'),
+hl = XN.browser.WebKit ? (Sizzle('body')[0]) : (Sizzle('html')[0]);
+var winWidth =  window.innerWidth || document.body.clientWidth;
+var nav = Sizzle('.navigation')[0];
+if(winWidth >= 1120){
+bt.style.left = XN.element.getPosition(nav).left + 990 +'px';
+}else{
+bt.style.right = '10px';
+}
+window.addEvent('changeLayout', function(e){
+if (e.layout) {
+bt.style.left = '';
+bt.style.right = '210px';
+} else {
+winWidth =  window.innerWidth || document.body.clientWidth;
+if(winWidth >= 1120){
+bt.style.right = '';
+bt.style.left = XN.element.getPosition(nav).left + 990 +'px';
+}else{
+bt.style.left = '';
+bt.style.right = '10px';
+}
+}
+});
+XN.event.addEvent(window, 'scroll', function(e){
+var st = hl.scrollTop,
+vh = hl.clientHeight,
+show = (st>30);
+if( show ){
+bt.style.display = '';
+}else{
+bt.style.display = 'none';
+}
+});
+var	pagerCon = odom.id('navigation-for-pager');
+XN.event.addEvent(window, 'resize', function(e){
+if ((pagerCon && pagerCon.hasClass('fixWidthForPager')) || (XN.smartyBuddy && XN.smartyBuddy.frameLayout())) {
+bt.style.right = '210px';
+bt.style.left = '';
+} else {
+winWidth =  window.innerWidth || document.body.clientWidth;
+if(winWidth >= 1120){
+//timeline页面ie7、8、9下，取回来的left值为0，所以加一个setTimeout
+setTimeout(function(){
+bt.style.right = '';
+bt.style.left = XN.element.getPosition(nav).left + 990 +'px';
+}, 0);
+}else{
+bt.style.left = '';
+bt.style.right = '10px';
+}
+}
+});
+});
+</script><input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a46476/n/apps/photo/modules/flashUploaderAndSend/flashUploaderSeed.js"/>
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a45550/n/apps/photo/modules/flashUploaderAndSend/flash-upload-all-min.css"/>
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a46476/n/apps/photo/modules/photo-view/photo-view-all-min.css"/>
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a46476/n/apps/photo/modules/photo-view/js/photoViewerSparta.js"/>
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a40131/jspro/album/commentManage.js"/>
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a28841/csspro/module/replies.css"/>
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a43634/n/apps/photo/modules/libs/tagPhoto-div.js"/> 
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a46202/n/apps/photo/modules/photo-view/js/photoViewerCtr.js"/> 
+<input type="hidden" name="photoStatic" value="http://s.xnimg.cn/a46476/n/apps/photo/flashUploaderWithSend.js"/>
+<img style="width:0;height:0;" src="http://s.renren.com/ping?v=20110919" />
+<script type="text/javascript" src="http://s.xnimg.cn/a12023/jspro/beacon.js"></script>
+<script type="text/javascript">
+COMSCORE.beacon({ c1:2, c2:6934070, c3:"", c4:"", c5:"", c6:"", c15:"" });
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6934070&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/wangran621104">View on GitHub</a>
 
-          <h1 id="project_title">Wangran621104.github.com</h1>
-          <h2 id="project_tagline">example</h2>
 
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<script type="text/javascript">
+XN.dom.ready(
+function(){
+playVideoOfContent( 'text-article', 'videoimg' );
+function removeNonInvidPhoto(){
+var con = $('shareBody');
+var imgs = con.getElementsByTagName('img');
+var reg = /kaixin001.com/;
+XN.array.each(imgs, function( i, v){
+if( reg.test(  v.src ) ) $(v).hide();
+})
+}
+removeNonInvidPhoto();
+}
+);
+XN.dom.ready(function(){
+var sendInfo = {
+id :  874229861,
+owner : 255235788,
+itemName : "越走越南  越南越美            带2000块一个人去越南（给朋友的参考攻略）",
+feedComment : true,
+only_to_me : 0,
+guestName : "王然MISSING",
+isfromshare : true
+};
+function sendHandle(){
+if( !$('sysnblog').checked ) return false;
+if( !$('miniEditorTextarea').value ) return false;
+if( $('repetNo').value != 0 ) return false;
+$extend( sendInfo, {
+body : $('miniEditorTextarea').value
+});
+new XN.net.xmlhttp({
+url:'http://blog.' + XN.env.domain + '/PostComment.do',
+data : XN.array.toQueryString( sendInfo )
+});
+}
+XN.array.each(Sizzle('.reply a:contains(回复)'), function(i,v){
+XN.event.addEvent(v,'click',function(){
+$('sysnblog').checked = false;
+$('sysnblog').disabled = true;
+});
+});
+XN.event.addEvent( $('submit_comment'), 'click',sendHandle);
+XN.event.addEvent($('comment_form_14514445893'), 'keydown',function( e ) {
+var evt = e || window.event;
+if(evt.keyCode == 13 && evt.ctrlKey) sendHandle();
+});
+});</script>
+</body>
 </html>
